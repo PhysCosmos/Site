@@ -6,6 +6,7 @@ input::-ms-reveal {
 body {
 	height: auto;
 	overflow-x: hidden;
+	color:  #b3b3e6;
 	background-color: $body-background-color;
 
 	&.nav-open {
@@ -56,7 +57,7 @@ body {
 
 		#search-input,
 		&::after {
-			box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1);
+			box-shadow: inset -10px 0 10px -10px rgba(f, f, f, f);
 		}
 
 		&::before {
