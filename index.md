@@ -1,5 +1,5 @@
 ---
-PhysCosmos
+title: PhysCosmos
 ---
 
 Welcome to PhysCosmos.
