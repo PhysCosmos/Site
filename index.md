@@ -5,6 +5,9 @@ title: PhysCosmos
 Welcome to PhysCosmos.
 This website contains astronomy-related physics and programming example problems and projects.
 The navigation column on the left contains listings of contents and tags in addition to the search bar.
+To display the latex equations on this site correctly, using the firefox browser is recommended.
+
+
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="\begin{pmatrix} \int_{-\infty}^{+\infty} \frac{1}{1+x^2} d x &amp; \sum_{n=0}^{+\infty} \frac{1}{x_n+1} &amp; E = mc^2 \\   e = -n \frac{d\phi}{dt} &amp; a &amp; b \\ u=Ri &amp; E=Ri^2 &amp; \dots \\  0 &amp; \frac{\pi^2}{6} = \sum_{n=0}^{+\infty}\text{something} &amp; 0 \end{pmatrix} ">
   <mrow>
     <mrow>
