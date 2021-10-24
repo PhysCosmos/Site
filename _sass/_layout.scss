@@ -98,7 +98,7 @@ header {
 		height: $nav-header-height;
 		box-sizing: border-box;
 		background-color: $brand-colour;
-		color: #fff;
+		color: #f8f8ff;
 		margin: 0;
 		font-size: 1.7rem;
 		line-height: 0.8;
@@ -120,7 +120,7 @@ header {
 $nav-image: $baseurl + "/images/menu.svg";
 	.open-nav {
 		background-image: url($nav-image);
-		background-color: transparent;
+		background-color: #000099;
 		background-repeat: no-repeat;
 		background-size: 100%;
 		width: $emblem-size;
@@ -187,7 +187,7 @@ $nav-image: $baseurl + "/images/menu.svg";
 	h2 {
 		font-size: 2rem;
 		margin-left: -1px;
-		color: #888;
+		color: ##000099;
 		letter-spacing: 0;
 	}
 
@@ -214,6 +214,7 @@ $nav-image: $baseurl + "/images/menu.svg";
 nav,
 header > form {
 	display: none;
+	background-color: #000099;
 
 	@media (min-width: $mobile-break) {
 		display: block;
@@ -222,6 +223,7 @@ header > form {
 
 nav > ul {
 	padding: $space / 2 0;
+	background-color: #000099;
 
 	& + ul {
 		border-top: 1px solid rgba(0, 0, 0, 0.075);
@@ -229,8 +231,9 @@ nav > ul {
 }
 
 .nav-item {
+	background-color: #000099;
 	display: block;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Timwa", sans-serif;
 	line-height: 1;
 	margin: 0;
 
@@ -362,6 +365,7 @@ h4 svg {
 
 
 #search-input {
+	background: $nav-background-color;
 	-webkit-appearance: none;
 	display: block;
 	margin: 0;
