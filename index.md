@@ -5,14 +5,106 @@ title: PhysCosmos
 Welcome to PhysCosmos.
 This website contains astronomy-related physics and programming example problems and projects.
 The navigation column on the left contains listings of contents and tags in addition to the search bar.
-
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="\begin{pmatrix} a &amp; b \\ c &amp; d \end{pmatrix} ">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block" title="\begin{pmatrix} \int_{-\infty}^{+\infty} \frac{1}{1+x^2} d x &amp; \sum_{n=0}^{+\infty} \frac{1}{x_n+1} &amp; E = mc^2 \\   e = -n \frac{d\phi}{dt} &amp; a &amp; b \\ u=Ri &amp; E=Ri^2 &amp; \dots \\  0 &amp; \frac{\pi^2}{6} = \sum_{n=0}^{+\infty}\text{something} &amp; 0 \end{pmatrix} ">
   <mrow>
     <mrow>
       <mo>(</mo>
       <mtable>
         <mtr>
+          <mtd>
+            <msubsup>
+              <mo largeop="true">∫</mo>
+              <mrow>
+                <mo>-</mo>
+                <mo>∞</mo>
+              </mrow>
+              <mrow>
+                <mo>+</mo>
+                <mo>∞</mo>
+              </mrow>
+            </msubsup>
+            <mfrac>
+              <mrow>
+                <mn>1</mn>
+              </mrow>
+              <mrow>
+                <mn>1</mn>
+                <mo>+</mo>
+                <msup>
+                  <mrow>
+                    <mi>x</mi>
+                  </mrow>
+                  <mrow>
+                    <mn>2</mn>
+                  </mrow>
+                </msup>
+              </mrow>
+            </mfrac>
+            <mi>d</mi>
+            <mi>x</mi>
+          </mtd>
+          <mtd>
+            <munderover>
+              <mo largeop="true">∑</mo>
+              <mrow>
+                <mi>n</mi>
+                <mo>=</mo>
+                <mn>0</mn>
+              </mrow>
+              <mrow>
+                <mo>+</mo>
+                <mo>∞</mo>
+              </mrow>
+            </munderover>
+            <mfrac>
+              <mrow>
+                <mn>1</mn>
+              </mrow>
+              <mrow>
+                <msub>
+                  <mrow>
+                    <mi>x</mi>
+                  </mrow>
+                  <mrow>
+                    <mi>n</mi>
+                  </mrow>
+                </msub>
+                <mo>+</mo>
+                <mn>1</mn>
+              </mrow>
+            </mfrac>
+          </mtd>
+          <mtd>
+            <mi>E</mi>
+            <mo>=</mo>
+            <mi>m</mi>
+            <msup>
+              <mrow>
+                <mi>c</mi>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mi>e</mi>
+            <mo>=</mo>
+            <mo>-</mo>
+            <mi>n</mi>
+            <mfrac>
+              <mrow>
+                <mi>d</mi>
+                <mi>ϕ</mi>
+              </mrow>
+              <mrow>
+                <mi>d</mi>
+                <mi>t</mi>
+              </mrow>
+            </mfrac>
+          </mtd>
           <mtd>
             <mi>a</mi>
           </mtd>
@@ -22,10 +114,75 @@ The navigation column on the left contains listings of contents and tags in addi
         </mtr>
         <mtr>
           <mtd>
-            <mi>c</mi>
+            <mi>u</mi>
+            <mo>=</mo>
+            <mi>R</mi>
+            <mi>i</mi>
           </mtd>
           <mtd>
-            <mi>d</mi>
+            <mi>E</mi>
+            <mo>=</mo>
+            <mi>R</mi>
+            <msup>
+              <mrow>
+                <mi>i</mi>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </mtd>
+          <mtd>
+            <mo>…</mo>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mn>0</mn>
+          </mtd>
+          <mtd>
+            <mfrac>
+              <mrow>
+                <msup>
+                  <mrow>
+                    <mi>π</mi>
+                  </mrow>
+                  <mrow>
+                    <mn>2</mn>
+                  </mrow>
+                </msup>
+              </mrow>
+              <mrow>
+                <mn>6</mn>
+              </mrow>
+            </mfrac>
+            <mo>=</mo>
+            <munderover>
+              <mo largeop="true">∑</mo>
+              <mrow>
+                <mi>n</mi>
+                <mo>=</mo>
+                <mn>0</mn>
+              </mrow>
+              <mrow>
+                <mo>+</mo>
+                <mo>∞</mo>
+              </mrow>
+            </munderover>
+            <mtext mathvariant="normal">
+              <mi>s</mi>
+              <mi>o</mi>
+              <mi>m</mi>
+              <mi>e</mi>
+              <mi>t</mi>
+              <mi>h</mi>
+              <mi>i</mi>
+              <mi>n</mi>
+              <mi>g</mi>
+            </mtext>
+          </mtd>
+          <mtd>
+            <mn>0</mn>
           </mtd>
         </mtr>
       </mtable>
