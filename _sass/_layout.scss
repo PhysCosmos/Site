@@ -365,7 +365,9 @@ h4 svg {
 
 
 #search-input {
-	background: $nav-background-color;
+	background-color: #b3b3e6;
+	background:  #b3b3e6;
+	color:  #b3b3e6;
 	-webkit-appearance: none;
 	display: block;
 	margin: 0;
@@ -394,7 +396,7 @@ h4 svg {
 	}
 
 	.date {
-		color: #888;
+		color:  #b3b3e6;
 		font-style: italic;
 	}
 }
@@ -453,13 +455,13 @@ img {
 		margin: 0;
 		font-size: 18px;
 		cursor: pointer;
-		background-color: #f7e064;
-		color: #333;
+		background-color:#000099;
+		color:  #b3b3e6;
 		box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
 
 		&:hover {
-			background-color: #f4d525;
-			color: #333;
+			background-color: #000099;
+			color:  #b3b3e6;
 		}
 	}
 
