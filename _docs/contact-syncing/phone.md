@@ -1,6 +1,6 @@
 ---
-title: Phone
-category: Contact Syncing
+title: Computer science
+category: Example problems
 order: 2
 ---
 
