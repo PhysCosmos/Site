@@ -1,6 +1,6 @@
 ---
-title: Facebook
-category: Contact Syncing
+title: Physics
+category: Example problems
 order: 1
 ---
 
