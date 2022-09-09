@@ -13,7 +13,7 @@ body {
 	font-size: 1.8em;
 	line-height: 1.75em;
 	color: #f8f8ff;
-	background-color: #000099;
+	background-color: #000000;
 	font-weight: 400;
 	-webkit-font-feature-settings: 'kern' 1;
 	-moz-font-feature-settings: 'kern' 1;
@@ -147,7 +147,7 @@ hr {
 }
 
 mark {
-	background-color:#000099;
+	background-color:#000000;
 }
 
 kbd {
@@ -161,7 +161,7 @@ kbd {
 	font-weight: 700;
 	background: #000099;
 	border-radius: 4px;
-	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #fff inset;
+	//box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 #fff inset;
 }
 
 @media only screen and (max-width: 900px) {
